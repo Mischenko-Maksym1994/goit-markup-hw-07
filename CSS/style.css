@@ -74,7 +74,7 @@ input {
 
 /*----Header-----*/
 
-.header {
+/* .header {
   margin: 0 auto;
   border-bottom: 1px solid #ececec;
 }
@@ -188,10 +188,10 @@ input {
 .header-cont-tel {
   width: 10px;
   height: 16px;
-}
+} */
 
 /*----Hero-----*/
-.hero {
+/* .hero {
   background-color: #2f303a;
   height: 600px;
   max-width: 1600px;
@@ -243,7 +243,7 @@ input {
 .hero-btn:hover,
 .btn:hover {
   background: #188ce8;
-}
+} */
 
 /*----Feature-----*/
 .feature {
