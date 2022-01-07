@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
         integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
         crossorigin="anonymous" referrerpolicy="no-referrer"/>
-    <link rel="stylesheet" href="./CSS/style.css">
+    
     <link rel="stylesheet" href="./CSS/main.min.css">
 </head>
 
@@ -31,14 +31,14 @@
                 </ul>
             </nav>
             <ul class="header-contacts-list list">
-                <li class="header-cont">
+                <li class="header-contacts-item">
                     <a class="header-contacts-link link" href="mailto:info@devstudio.com">
                         <svg class="header-cont-icon">
                             <use href="./image/symbol-defs.svg#icon-envelope"></use>
                         </svg>
                         info@devstudio.com</a>
                     </li>
-                <li class="header-cont">
+                <li class="header-contacts-item">
                     <a class="header-contacts-link link" href="tel:+380961111111">
                         <svg class="header-cont-icon header-cont-tel">
                             <use href="./image/symbol-defs.svg#icon-smartphone"></use>
@@ -356,22 +356,22 @@
     </main>
 
     <!--Футер-->
-    <footer class="foot">
+    <footer class="footer">
         <div class="conteiner footer-conteiner">
             
                 <div class="footer-nav">
-                    <a class="logo link logo-footer" href="/"> 
-                        <span class="color-logo">Web</span><span class="footer-logo">Studio</span></a>
-                    <address>
+                    <a class="logo link footer-logo" href="/"> 
+                        <span class="color-logo">Web</span><span class="footer-logo-customization">Studio</span></a>
+                    <address class="footer-adress">
                     <ul class="adress-list list">
-                        <li> <a class="adress-city list" href="">г. Киев, пр-т Леси Украинки, 26</a></li>
-                        <li> <a class="adress-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                        <li> <a class="adress-link" href="tel:+380961111111">+38 096 111 11 11</a></li>
+                        <li class="adress-link-item"> <a class="adress-city list" href="">г. Киев, пр-т Леси Украинки, 26</a></li>
+                        <li class="adress-link-item"> <a class="adress-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                        <li class="adress-link-item"> <a class="adress-link" href="tel:+380961111111">+38 096 111 11 11</a></li>
                     </ul>
                     </address>
                 </div>
 
-                <div class="links">
+                <div class="footer-links">
                     <h2 class="our-links-text">присоединяйтесь</h2>
                     <ul class="our-sotial-list list">
                         <li class="our-sotial-item sotial-item">
@@ -492,20 +492,7 @@
                         <a href="" class="link-contract">Условия договора</a>
                         
                     </label>
-                    
-                    <!-- альтернативный чекбокс-->
-                    <!-- <div>
-                    <input type="checkbox"
-                        name="alt-checkbox"
-                        id="modal-check"
-                        class="modal-check checkbox">
-
-                    <label for="modal-check" class="modal-check-text">
-                        Aльтернативный чекбокс
-                    </label>
-                    </div> -->
-                    <!-- альтернативный чекбокс-->
-                
+                                  
                 <button type="submit" class="btn checkbox-btn">Отправить</button>
                 </div>
 

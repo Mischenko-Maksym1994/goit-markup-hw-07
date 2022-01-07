@@ -2,7 +2,18 @@
 @import './utils/commons';
 @import './utils/reset';
 @import './utils/checbox';
-@import './components/conteiner';
 
-@import './header';
-@import './hero';
+@import './components/conteiner';
+@import './components/section';
+@import './components/secondary-title';
+@import './components/btn';
+@import './components/modal-window';
+
+@import './layout/header';
+@import './layout/hero';
+@import './layout/feature';
+@import './layout/about';
+@import './layout/team';
+@import './layout/customers';
+@import './layout/portfolio';
+@import './layout/footer';

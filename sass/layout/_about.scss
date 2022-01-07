@@ -1,0 +1,37 @@
+.about {
+  padding-bottom: 94px;
+}
+
+.secondary-title {
+  padding-bottom: 50px;
+}
+.about-list {
+  display: flex;
+  margin-left: -30px;
+}
+.about-item {
+  position: relative;
+
+  flex-basis: calc(100% / 3 - 30px);
+  margin-left: 30px;
+}
+
+.about-specialization {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 70px;
+  background-color: rgba(47, 48, 58, 0.8);
+}
+.about-specialization-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--primary-title-color);
+}

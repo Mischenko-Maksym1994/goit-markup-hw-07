@@ -24,30 +24,3 @@
   color: var(--primary-title-color);
   margin-bottom: 30px;
 }
-
-.btn {
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.87;
-  letter-spacing: 0.06em;
-  color: #ffffff;
-  background: var(--acsent-color);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  cursor: pointer;
-  width: 200px;
-  height: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.hero-btn {
-  margin: 0 auto;
-  border: none;
-}
-
-.hero-btn:hover,
-.btn:hover {
-  background: #188ce8;
-}
