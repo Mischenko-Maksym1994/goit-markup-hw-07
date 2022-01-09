@@ -31,8 +31,10 @@
   padding-bottom: 32px;
 }
 
-.header-item:not(:last-child) {
-  margin-right: 50px;
+.header-item {
+  &:not(:last-child) {
+    margin-right: 50px;
+  }
 }
 
 .header-contacts-list {
@@ -60,10 +62,10 @@
   &:focus {
     color: var(--acsent-color);
   }
-  &:active,
-  &:visited {
-    color: #b4f321;
-  }
+  // &:active,
+  // &:visited {
+  //   color: #b4f321;
+  // }
   .current {
     &::after {
       content: '';
@@ -78,6 +80,7 @@
     }
   }
 }
+
 .header-list {
   .link.current {
     color: var(--acsent-color);
