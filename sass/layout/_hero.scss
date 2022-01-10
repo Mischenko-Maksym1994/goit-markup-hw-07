@@ -14,7 +14,7 @@
   background-position: center;
   background-repeat: no-repeat;
 }
-.hero-title {
+.hero__title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -23,4 +23,12 @@
   text-transform: uppercase;
   color: var(--primary-title-color);
   margin-bottom: 30px;
+}
+
+.hero__btn {
+  margin: 0 auto;
+  border: none;
+  & :hover {
+    background: #188ce8;
+  }
 }

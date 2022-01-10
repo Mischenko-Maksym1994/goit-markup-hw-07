@@ -8,7 +8,7 @@
 .feature-list__item {
   margin-left: 30px;
 }
-.feature-icon-fon {
+.feature-list__icon-fon {
   display: flex;
   margin-left: auto;
   margin-right: auto;
@@ -21,12 +21,12 @@
   justify-content: center;
 }
 
-.feature-icon {
+.feature-list__icon {
   width: 70px;
   height: 70px;
 }
 
-.feature-title {
+.feature-list__title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -34,7 +34,7 @@
   color: var(--secondary-title-color);
 }
 
-.feature-item-text {
+.feature-list__item-text {
   font-size: 14px;
   line-height: 1.71;
   color: var(--primary-text-color);

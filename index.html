@@ -17,19 +17,20 @@
 
 <body>
     <header class="header">
-        <div class="conteiner conteiner-head">
-            <nav class="header-navigation">
+        <div class="conteiner conteiner__head">
+            <nav class="navigation">
                 <a class="logo link" href="/"> 
-                    <span class="color-logo">Web</span>Studio</a>
+                    <span class="logo__text">Web</span>Studio</a>
                 <ul class="header-list list">
-                    <li class="header-item">
-                        <a class="header-link link current" href="/index.html"> Студия</a></li>
-                    <li class="header-item">
-                        <a class="header-link link" href="./portfolio.html"> Портфолио</a></li>
-                    <li class="header-item">
-                        <a class="header-link link" href=""> Контакты</a></li>
+                    <li class="header-list__item">
+                        <a class="header-list__link link current" href="/index.html"> Студия</a></li>
+                    <li class="header-list__item">
+                        <a class="header-list__link link" href="./portfolio.html"> Портфолио</a></li>
+                    <li class="header-list__item">
+                        <a class="header-list__link link" href=""> Контакты</a></li>
                 </ul>
             </nav>
+            
             <ul class="header-contacts-list list">
                 <li class="header-contacts-item">
                     <a class="header-contacts-link link" href="mailto:info@devstudio.com">
@@ -52,8 +53,8 @@
     <!--Меню-->
     <main>
             <section class="hero">
-                <h1 class="hero-title">Эффективные решения <br> для вашего бизнеса</h1>
-                <button class="btn hero-btn" type="button" data-modal-open>Заказать услугу</button>
+                <h1 class="hero__title">Эффективные решения <br> для вашего бизнеса</h1>
+                <button class="btn hero__btn" type="button" data-modal-open>Заказать услугу</button>
             </section>
         
         <!--Особенности-->
@@ -62,43 +63,43 @@
             <h2 class="inv">Особенности</h2>
             <ul class="feature-list list">
                 <li class="feature-list__item">
-                    <div class="feature-icon-fon">
-                    <svg class="feature-icon">
+                    <div class="feature-list__icon-fon">
+                    <svg class="feature-list__icon">
                         <use href="./image/symbol-defs.svg#icon-antenna"></use>
                     </svg>
                     </div>
-                    <h3 class="feature-title">Внимание к деталям</h3>
-                    <p class="feature-item-text">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+                    <h3 class="feature-list__title">Внимание к деталям</h3>
+                    <p class="feature-list__item-text">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
                 </li>
 
                 <li class="feature-list__item">
-                    <div class="feature-icon-fon">
-                    <svg class="feature-icon">
+                    <div class="feature-list__icon-fon">
+                    <svg class="feature-list__icon">
                         <use href="./image/symbol-defs.svg#icon-clock"></use>
                     </svg>
                     </div>
-                    <h3 class="feature-title">Пунктуальность</h3>
-                    <p class="feature-item-text"> Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
+                    <h3 class="feature-list__title">Пунктуальность</h3>
+                    <p class="feature-list__item-text"> Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
                 </li>
 
                 <li class="feature-list__item">
-                    <div class="feature-icon-fon">
-                    <svg class="feature-icon">
+                    <div class="feature-list__icon-fon">
+                    <svg class="feature-list__icon">
                         <use href="./image/symbol-defs.svg#icon-diagram"></use>
                     </svg>
                     </div>
-                    <h3 class="feature-title">Планирование</h3>
-                    <p class="feature-item-text">Равным образом консультация с широким активом в значительной степени обуславливает.
+                    <h3 class="feature-list__title">Планирование</h3>
+                    <p class="feature-list__item-text">Равным образом консультация с широким активом в значительной степени обуславливает.
                 </li>
 
                 <li class="feature-list__item">
-                    <div class="feature-icon-fon">
-                    <svg class="feature-icon">
+                    <div class="feature-list__icon-fon">
+                    <svg class="feature-list__icon">
                         <use href="./image/symbol-defs.svg#icon-astronaut"></use>
                     </svg>
                     </div>
-                    <h3 class="feature-title">Современные технологии</h3>
-                    <p class="feature-item-text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.
+                    <h3 class="feature-list__title">Современные технологии</h3>
+                    <p class="feature-list__item-text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.
                 </li>
             </ul>
             </div>
@@ -109,24 +110,24 @@
             <div class="conteiner">
                 <h2 class="secondary-title">Чем мы занимаемся</h2>
                 <ul class="about-list list">
-                    <li class="about-item">
+                    <li class="about-list__item">
                         <img src="./image/img_stryctyr.jpg" alt="Десктопные приложения" width="370">
-                    <div class="about-specialization">
-                        <h3 class="about-specialization-title">Десктопные приложения</h3>
+                    <div class="about-list__specialization">
+                        <h3 class="about-list__specialization-title">Десктопные приложения</h3>
                     </div>
                     </li>
 
-                    <li class="about-item">
+                    <li class="about-list__item">
                         <img src="./image/box_2.jpg" alt="Мобильные приложения" width="370">
-                    <div class="about-specialization">
-                        <h3 class="about-specialization-title">Мобильные приложения</h3>
+                    <div class="about-list__specialization">
+                        <h3 class="about-list__specialization-title">Мобильные приложения</h3>
                     </div>
                     </li>
 
-                    <li class="about-item">
+                    <li class="about-list__item">
                         <img src="./image/tablet.jpg" alt="Дизайнерские решения" width="370">
-                    <div class="about-specialization">
-                        <h3 class="about-specialization-title">Дизайнерские решения</h3>
+                    <div class="about-list__specialization">
+                        <h3 class="about-list__specialization-title">Дизайнерские решения</h3>
                     </div>
                     </li>
                 </ul>

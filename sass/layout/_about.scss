@@ -2,21 +2,18 @@
   padding-bottom: 94px;
 }
 
-.secondary-title {
-  padding-bottom: 50px;
-}
 .about-list {
   display: flex;
   margin-left: -30px;
 }
-.about-item {
+.about-list__item {
   position: relative;
 
   flex-basis: calc(100% / 3 - 30px);
   margin-left: 30px;
 }
 
-.about-specialization {
+.about-list__specialization {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -28,7 +25,7 @@
   height: 70px;
   background-color: rgba(47, 48, 58, 0.8);
 }
-.about-specialization-title {
+.about-list__specialization-title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;

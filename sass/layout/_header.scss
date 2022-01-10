@@ -11,16 +11,16 @@
   color: #000000;
   margin-right: 93px;
 }
-.color-logo {
+.logo__text {
   color: var(--acsent-color);
 }
 
-.conteiner-head {
+.conteiner__head {
   display: flex;
   align-items: center;
 }
 
-.header-navigation {
+.navigation {
   display: flex;
   align-items: center;
 }
@@ -31,23 +31,13 @@
   padding-bottom: 32px;
 }
 
-.header-item {
+.header-list__item {
   &:not(:last-child) {
     margin-right: 50px;
   }
 }
 
-.header-contacts-list {
-  display: flex;
-  margin-left: auto;
-  align-items: center;
-}
-
-.header-contacts-item:not(:last-child) {
-  margin-right: 50px;
-}
-
-.header-link {
+.header-list__link {
   position: relative;
   font-weight: 500;
   font-size: 14px;
@@ -85,6 +75,16 @@
   .link.current {
     color: var(--acsent-color);
   }
+}
+
+.header-contacts-list {
+  display: flex;
+  margin-left: auto;
+  align-items: center;
+}
+
+.header-contacts-item:not(:last-child) {
+  margin-right: 50px;
 }
 
 .header-contacts-link {
