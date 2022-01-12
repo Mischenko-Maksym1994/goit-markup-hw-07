@@ -23,11 +23,11 @@
                     <span class="logo__text">Web</span>Studio</a>
                 <ul class="header-list list">
                     <li class="header-list__item">
-                        <a class="header-list__link link current" href="/index.html"> Студия</a></li>
+                        <a class="header-list__link link current" href="./index.html"> Студия</a></li>
                     <li class="header-list__item">
                         <a class="header-list__link link" href="./portfolio.html"> Портфолио</a></li>
                     <li class="header-list__item">
-                        <a class="header-list__link link" href=""> Контакты</a></li>
+                        <a class="header-list__link link" href="/"> Контакты</a></li>
                 </ul>
             </nav>
             
@@ -435,47 +435,51 @@
     <!-- Модальное окно -->
     <div class="backdrop is-hidden" data-modal>
         <div class="modal">
-            <form action="">
-                <h2 class="form-title">Оставьте свои данные, мы вам перезвоним</h2>
+            <form class="form" action="" >
+                <h2 class="form__title">Оставьте свои данные, мы вам перезвоним</h2>
                 
-                <div class="input-image">
-                <label class="input-name">Имя
-                    <div class="input-position-name">
-                    <input type="text" name="user-name" required 
-                class="form-input">
-                    <svg class="input-icon-name">
-                        <use href="./image/symbol-defs.svg#icon-person-black"></use>
-                    </svg>
-                    </div>
-                </label>
+                <div class="input-box">
+                    <label class="input-name">Имя
+                        <div class="input-name__position">
+                            <input type="text" name="user-name" required 
+                            class="input-name__size">
+                            <svg class="input-name__icon">
+                                <use href="./image/symbol-defs.svg#icon-person-black"></use>
+                            </svg>
+                        </div>
+                    </label>
                 </div>
 
-                <div class="input-image">
+                <div class="input-box">
                     <label class="input-name">Телефон
-                        <div class="input-position-tel">
-                    <input type="tel" name="user-tel" 
-                    class="form-input">
-                    <svg class="input-icon-name">
-                        <use href="./image/symbol-defs.svg#icon-phone-black"></use>
-                    </svg>
+                        <div class="input-name__position">
+                            <input type="tel" name="user-tel" 
+                            class="input-name__size">
+                            <svg class="input-name__icon">
+                                <use href="./image/symbol-defs.svg#icon-phone-black"></use>
+                            </svg>
                         </div>
                     </label>
                 </div>
                 
-                <div class="input-image">
-                <label  class="input-name">Почта
-                    <div class="input-position-email">
-                    <input type="email" name="user-mail" class="form-input">
-                        <svg class="input-icon-name">
-                            <use href="./image/symbol-defs.svg#icon-email-black"></use>
-                        </svg>
-                    </div>
-                </label>
+                <div class="input-box">
+                    <label  class="input-name">Почта
+                        <div class="input-name__position">
+                            <input type="email" name="user-mail" 
+                            class="input-name__size">
+                                <svg class="input-name__icon">
+                                    <use href="./image/symbol-defs.svg#icon-email-black"></use>
+                                </svg>
+                        </div>
+                    </label>
                 </div>
 
-                <label for="text" class="input-name">Комментарий</label>
-                <textarea name="text" id="text" cols="30" rows="10" 
-                placeholder="Введите текст" class="form-text"></textarea>
+                <div class="textarea-box">
+                    <label for="text" class="input-name">Комментарий</label>
+                    <textarea name="text" id="text" cols="30" rows="10" 
+                    placeholder="Введите текст" class="textarea-box__size">
+                    </textarea>
+                </div>
 
                 <div class="box-btn-form">
                     <input class="checkbox" 
