@@ -208,15 +208,15 @@ img {
   transition: transform 2500ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.textarea-box ::placeholder {
+textarea::placeholder {
   color: rgba(117, 117, 117, 0.5);
 }
 
-.textarea-box :focus {
+textarea:focus {
   border: 1px solid var(--acsent-color);
 }
 
-.textarea-box__size {
+.textarea-box__text {
   width: 100%;
   height: 120px;
   padding-left: 16px;
@@ -226,17 +226,18 @@ img {
   resize: none;
   margin-top: 4px;
   margin-bottom: 20px;
+  color: tomato;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   outline: none;
 }
 
-.box-btn-form {
+.box-btn {
   display: flex;
   flex-direction: column;
 }
 
-.check-icon-text {
+.checkbox__icon {
   font-size: 14px;
   line-height: 1.71;
   color: var(--primary-text-color);
@@ -245,7 +246,7 @@ img {
   justify-content: center;
 }
 
-.check-icon-text span {
+.checkbox__icon .checkbox__icon-box {
   width: 16px;
   height: 15px;
   margin-right: 7px;
@@ -256,26 +257,26 @@ img {
   justify-content: center;
 }
 
-.check-icon {
+.checkbox__icon-check {
   fill: transparent;
 }
 
-.link-contract {
+.checkbox__link-contract {
   color: var(--acsent-color);
   text-decoration: underline;
   margin-left: 5px;
 }
 
-.checkbox:checked + .check-icon-text span {
+.checkbox:checked + .checkbox__icon span {
   background-color: var(--acsent-color);
   border: none;
 }
 
-.checkbox:checked + .check-icon-text .check-icon {
+.checkbox:checked + .checkbox__icon .checkbox__icon-check {
   fill: #ffffff;
 }
 
-.checkbox-btn {
+.checkbox__btn {
   margin-top: 30px;
   margin-left: auto;
   margin-right: auto;
@@ -297,13 +298,13 @@ img {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-icon-close {
+.modal-btn__close {
   width: 18px;
   height: 18px;
   fill: black;
 }
 
-.modal-icon-close :hover {
+.modal-btn__close :hover {
   fill: var(--acsent-color);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
